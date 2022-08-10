@@ -1,0 +1,1 @@
+grpcurl -d '{"number1": 5,"number2": 6,"operator": "+"}' localhost:8888 api.Calculator/DoCalc
